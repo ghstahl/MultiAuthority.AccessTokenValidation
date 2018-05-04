@@ -1,5 +1,5 @@
 # MultiAuthority.AccessTokenValidation
-This project was copied from the IdentityServer4.AccessTokenValidation implementation.  
+This project was copied from the [IdentityServer4.AccessTokenValidation](https://github.com/IdentityServer/IdentityServer4.AccessTokenValidation) implementation.  
 It removed the introspection scheme.  It lets you add many JWTBearer schemes where the client has to add a custom header to indicate which scheme to use.
 
 ```

@@ -78,10 +78,7 @@ List<SchemeRecord> schemeRecords = new List<SchemeRecord>()
 };
 
 services.AddAuthentication("Bearer")
-    .AddMultiAuthorityAuthentication(schemeRecords, options =>
-    {
- 
-    });
+    .AddMultiAuthorityAuthentication(schemeRecords);
 ```
 
 
